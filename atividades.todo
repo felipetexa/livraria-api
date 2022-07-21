@@ -1,0 +1,26 @@
+Atividade I - Uma API Para um Sistema Já Existente:
+
+    Olá! Hoje o desafio na empresa será um pouco diferente, um dev do time de API foi realocado e na hora sugerir um nome para dar continuidade no trabalho que ele estava fazendo não pude pensar em outro nome senão no seu! Precisamos que tome a frente da seguinte task completando o processo de criação de API para o sistema de estoque de uma livraria:
+    
+        ✔ O projeto está com as bases prontas, nele você pode encontrar os models da base de dados. Dê uma olhada no projeto para compreender melhor a regra de negócio e código utilizado. @done(22-07-20 21:08)
+
+        ✔ Prezamos pela implementação de uma arquitetura MVC, então mesmo que no caso de APIs não utilizemos de um frontend, pela padronização de projetos aqui no time, pedimos que utilize controladores. @done(22-07-20 21:08)
+
+        ✔ O cliente solicitou que o endpoint de livros seja: /api/v1/livros @done(22-07-20 21:08)
+
+        ✔ O cliente precisa da funcionalidade de listagem de todas as obras que possui. Identifique qual tipo de método é utilizado para buscas de recursos e crie um endpoint que retorne a listagem de livros. @done(22-07-20 21:30)
+
+        ✔ O cliente também precisa listar uma obra específica. Crie um endpoint que retorne somente os dados de um livro específico. @done(22-07-20 21:39)
+     
+        ☐ É necessária também a possibilidade de editar registros individualmente. Isto significa que um request deverá receber um identificador do livro em conjunto das informações que serão alteradas, assim o registro pode ser alterado e você deverá retornar os dados do livro em questão atualizado. Não se esqueça de escolher um método para o endpoint que melhor atenda o escopo.
+     
+        ☐ Por fim, precisamos entregar a possibilidade de adicionar mais obras literárias no sistema em questão. Para isso, escolha o método que melhor se encaixa para o escopo de cadastro.
+     
+        ☐ Semelhante ao requisito 4, um request será analisado, dados deverão ser cadastrados e você deverá retornar os dados do livro cadastrado.
+    
+    PARA IR ALÉM (e deixar o sistema completo):
+        ☐ Esteja preparado para retornar uma mensagem de erro caso não seja possível completar a funcionalidade em cada endpoint da API.
+    
+    Desafio: Deletar um livro:
+        ☐ Realizar a criação da rota e controller para deletar um livro.
+
