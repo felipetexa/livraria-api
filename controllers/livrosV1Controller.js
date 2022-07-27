@@ -1,5 +1,6 @@
 const { Livro } = require('../models');
 const { Op } = require("sequelize");
+const countriesApi = require('../services/Countries');
 
 const livrosV1Controller = {
   showAllBooks: async (req, res) => {
@@ -9,7 +10,13 @@ const livrosV1Controller = {
   },
   showOneBook: async (req, res) => {
     try{
-      const book = await Livro.findByPk(req.params.id);   
+      const book = await Livro.findByPk(req.params.id, { raw: true });   
+
+      const pais = await countriesApi.getByAlphaCode('br');
+
+      Object.assign(book, { 
+        bandeira: pais[0].flags.png
+       });
 
       if(!book) {
         return res.status(404).json({

@@ -12,15 +12,15 @@ Atividade I - Uma API Para um Sistema Já Existente:
 
         ✔ O cliente também precisa listar uma obra específica. Crie um endpoint que retorne somente os dados de um livro específico. @done(22-07-20 21:39)
      
-        ☐ É necessária também a possibilidade de editar registros individualmente. Isto significa que um request deverá receber um identificador do livro em conjunto das informações que serão alteradas, assim o registro pode ser alterado e você deverá retornar os dados do livro em questão atualizado. Não se esqueça de escolher um método para o endpoint que melhor atenda o escopo.
+        ✔ É necessária também a possibilidade de editar registros individualmente. Isto significa que um request deverá receber um identificador do livro em conjunto das informações que serão alteradas, assim o registro pode ser alterado e você deverá retornar os dados do livro em questão atualizado. Não se esqueça de escolher um método para o endpoint que melhor atenda o escopo. @done(22-07-25 21:36)
      
-        ☐ Por fim, precisamos entregar a possibilidade de adicionar mais obras literárias no sistema em questão. Para isso, escolha o método que melhor se encaixa para o escopo de cadastro.
+        ✔ Por fim, precisamos entregar a possibilidade de adicionar mais obras literárias no sistema em questão. Para isso, escolha o método que melhor se encaixa para o escopo de cadastro. @done(22-07-25 21:36)
      
-        ☐ Semelhante ao requisito 4, um request será analisado, dados deverão ser cadastrados e você deverá retornar os dados do livro cadastrado.
+        ✔ Semelhante ao requisito 4, um request será analisado, dados deverão ser cadastrados e você deverá retornar os dados do livro cadastrado. @done(22-07-25 21:36)
     
     PARA IR ALÉM (e deixar o sistema completo):
-        ☐ Esteja preparado para retornar uma mensagem de erro caso não seja possível completar a funcionalidade em cada endpoint da API.
+        ✔ Esteja preparado para retornar uma mensagem de erro caso não seja possível completar a funcionalidade em cada endpoint da API. @done(22-07-25 21:36)
     
     Desafio: Deletar um livro:
-        ☐ Realizar a criação da rota e controller para deletar um livro.
+        ✔ Realizar a criação da rota e controller para deletar um livro. @done(22-07-25 21:36)
 
